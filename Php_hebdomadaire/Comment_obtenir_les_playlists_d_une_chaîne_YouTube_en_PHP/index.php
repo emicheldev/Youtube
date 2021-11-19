@@ -27,17 +27,17 @@
 <section class="px-4 mx-auto mt-12 mb-12 max-w-7xl sm:px-6 lg:px-4">
     <article>
         <h2 class="text-2xl font-extrabold text-gray-900">PLAYLISTS YOUTUBE D'EMICHEL 😎</h2>
-        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mb-12">
-            <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
+        <section class="px-4 mx-auto mb-12 max-w-7xl sm:px-6 lg:px-4">
+            <section class="grid grid-cols-1 mt-6 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
             <?php 
                 foreach((array)$playlists->items as $item){
                     echo '
-                    <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
+                    <article class="relative w-full h-64 overflow-hidden transition duration-300 ease-in-out bg-center bg-cover rounded-lg shadow-lg group hover:shadow-2xl"
                         style="background-image: url('.$item->snippet->thumbnails->medium->url.');">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
-                        <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                        <div class="absolute inset-0 transition duration-300 ease-in-out bg-black bg-opacity-50 group-hover:opacity-75"></div>
+                        <div class="relative flex items-center justify-center w-full h-full px-4 sm:px-6 lg:px-4">
                             <h3 class="text-center">
-                                <a class="text-white text-2xl font-bold text-center" href="#">
+                                <a class="text-2xl font-bold text-center text-white" href="#">
                                     <span class="absolute inset-0"></span>
                                     '.$item->snippet->title.'
                                 </a>
