@@ -1,4 +1,4 @@
-![Comment obtenir les playlists d'une chaîne YouTube en PHP🐘](Comment_recuperer_la_liste_des_playliste_d_une_chaine_youtube.jpg "php youtube emichel")
+![Comment obtenir les playlists d'une chaîne YouTube en PHP🐘](Comment_recuperer_la_liste_des_playliste_d_une_chaine_youtube.png "php youtube emichel")
 
 # Comment obtenir des playlists d'une chaîne YouTube en PHP🐘 ?
 
