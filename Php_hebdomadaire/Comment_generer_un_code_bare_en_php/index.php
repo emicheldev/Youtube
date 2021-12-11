@@ -73,11 +73,11 @@
                     $codeType = trim($_POST['codeType']);
                     $orientation = trim($_POST['orientation']);
 
-                    if ($barcodeText != '') {
-                        echo "<img alt='testing' src='barcode.php?codeType=".$codeType."&size=40&text=".$barcodeText."&print=true&orientation=".$orientation."'/>";
-                    }else {
-                        echo 'Merci d\'ajouter le texte';
-                    }
+                        if ($barcodeText != '') {
+                            echo "<img alt='testing' src='barcode.php?codeType=".$codeType."&size=40&text=".$barcodeText."&print=true&orientation=".$orientation."'/>";
+                        }else {
+                            echo 'Merci d\'ajouter le texte';
+                        }
                     }
                 ?>
 
